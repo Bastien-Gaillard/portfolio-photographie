@@ -50,7 +50,7 @@ export default function Footer() {
             <div className="space-y-2 font-inter text-sm">
               <div>
                 <a
-                  href="https://instagram.com/bastiengaillard"
+                  href="https://www.instagram.com/bastien.gaillard.756/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-600 hover:text-black transition-colors"

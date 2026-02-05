@@ -57,7 +57,7 @@ export default function Contact() {
             </p>
             <div className="flex items-center gap-8">
               <a
-                href="https://instagram.com/bastiengaillard"
+                href="https://www.instagram.com/bastien.gaillard.756/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-inter text-sm text-black hover:text-gray-600 transition-colors"
