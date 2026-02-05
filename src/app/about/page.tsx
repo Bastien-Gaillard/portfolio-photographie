@@ -17,13 +17,13 @@ export default function About() {
           {/* Text Section */}
           <div className="font-inter text-lg leading-relaxed space-y-6 text-gray-800">
             <p>
-              I'm a street and travel photographer drawn to quiet, cinematic moments in everyday life.
+              I photograph nature and my travels, focusing on the light, atmosphere, and details of the places I explore.
             </p>
             <p>
-              My work focuses on atmosphere, light, and human presence within urban environments.
+              My goal is to share authentic moments and the emotions of the scenes I encounter.
             </p>
             <p>
-              I document cities not as places, but as moods.
+              I capture the quiet beauty of each scene as I experience it.
             </p>
           </div>
 
@@ -47,8 +47,7 @@ export default function About() {
           <div className="space-y-4">
             <h2 className="font-playfair text-2xl font-light">Technical Details</h2>
             <p className="font-inter text-gray-700">
-              Fujifilm X-T5 // Leica M10 // Various prime lenses<br />
-              Film: Fujicolor Superia, Kodak Portra
+              Sony Alpha 6700 // Various prime lenses
             </p>
           </div>
         </div>
