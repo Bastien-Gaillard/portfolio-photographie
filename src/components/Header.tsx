@@ -11,10 +11,9 @@ export default function Header() {
   const isActive = (path: string) => pathname === path;
 
   const navItems = [
-    { href: '/', label: 'Home' },
+    { href: '/', label: 'Accueil' },
     { href: '/portfolio', label: 'Portfolio' },
-    { href: '/about', label: 'About' },
-    { href: '/contact', label: 'Contact' },
+    { href: '/about', label: 'À propos' },
   ];
 
   return (

@@ -54,7 +54,7 @@ export default function Portfolio() {
         </h1>
         <div className="h-px bg-black w-16 mb-8"></div>
         <p className="font-inter text-lg text-gray-600 max-w-2xl">
-          Collections of cinematic moments from the world's streets and urban landscapes.
+          Collections de moments cinématographiques des rues du monde et des paysages urbains.
         </p>
       </section>
 
@@ -83,7 +83,7 @@ export default function Portfolio() {
                     {s.title}
                   </h2>
                   <p className="font-inter text-xs uppercase tracking-widest text-gray-500">
-                    {s.imageCount} photographs
+                    {s.imageCount} photographies
                   </p>
                 </div>
               </div>

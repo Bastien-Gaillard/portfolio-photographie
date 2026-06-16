@@ -52,14 +52,14 @@ export default async function SeriesDetail({ params }: SeriesPageProps) {
       {/* Series Header */}
       <section className="max-w-7xl mx-auto px-6 lg:px-12 py-16 lg:py-24">
         <Link href="/portfolio" className="font-inter text-xs uppercase tracking-widest text-gray-600 hover:text-black transition-colors mb-8 inline-block">
-          ← Back to Portfolio
+          ← Retour au Portfolio
         </Link>
         <h1 className="font-playfair text-5xl lg:text-6xl font-light tracking-tight mb-4">
           {title}
         </h1>
         <div className="h-px bg-black w-16 mb-8"></div>
         <p className="font-inter text-lg text-gray-600 max-w-2xl">
-          {images.length} photographs
+          {images.length} photographies
         </p>
       </section>
 

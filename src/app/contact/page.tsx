@@ -23,7 +23,7 @@ export default function Contact() {
     console.log('Form submitted:', formState);
     // Reset form
     setFormState({ name: '', email: '', message: '' });
-    alert('Thank you for your message. I will get back to you soon.');
+    alert('Merci pour votre message. Je vous recontacterai bientôt.');
   };
 
   return (
@@ -31,7 +31,7 @@ export default function Contact() {
       {/* Page Header */}
       <section className="max-w-3xl mx-auto px-6 lg:px-12 py-16 lg:py-24">
         <h1 className="font-playfair text-5xl lg:text-6xl font-light tracking-tight mb-8">
-          Get in Touch
+          Me Contacter
         </h1>
         <div className="h-px bg-black w-16 mb-12"></div>
 
@@ -53,7 +53,7 @@ export default function Contact() {
           {/* Social */}
           <div>
             <p className="font-inter text-sm uppercase tracking-widest text-gray-600 mb-3">
-              Social
+              Réseaux sociaux
             </p>
             <div className="flex items-center gap-8">
               <a
@@ -82,7 +82,7 @@ export default function Contact() {
           <form onSubmit={handleSubmit} className="space-y-8">
             <div>
               <label htmlFor="name" className="block font-inter text-sm uppercase tracking-widest text-gray-600 mb-3">
-                Name
+                Nom
               </label>
               <input
                 type="text"
@@ -92,7 +92,7 @@ export default function Contact() {
                 onChange={handleChange}
                 required
                 className="w-full font-inter text-lg border-b border-black pb-2 focus:outline-none focus:border-gray-600 transition-colors"
-                placeholder="Your name"
+                placeholder="Votre nom"
               />
             </div>
 
@@ -108,7 +108,7 @@ export default function Contact() {
                 onChange={handleChange}
                 required
                 className="w-full font-inter text-lg border-b border-black pb-2 focus:outline-none focus:border-gray-600 transition-colors"
-                placeholder="your@email.com"
+                placeholder="votre@email.com"
               />
             </div>
 
@@ -124,7 +124,7 @@ export default function Contact() {
                 required
                 rows={5}
                 className="w-full font-inter text-lg border-b border-black pb-2 focus:outline-none focus:border-gray-600 transition-colors resize-none"
-                placeholder="Your message"
+                placeholder="Votre message"
               />
             </div>
 
@@ -132,7 +132,7 @@ export default function Contact() {
               type="submit"
               className="font-inter text-sm uppercase tracking-widest text-black hover:text-gray-600 transition-colors mt-8"
             >
-              Send Message →
+              Envoyer →
             </button>
           </form>
         </div>

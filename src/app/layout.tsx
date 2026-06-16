@@ -16,8 +16,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Bastien Gaillard | Street & Travel Photography",
-  description: "Cinematic urban moments. Street, travel and atmospheric photography.",
+  title: "Bastien Gaillard | Photographie de rue et voyage",
+  description: "Moments urbains cinématographiques. Photographie de rue, voyage et atmosphérique.",
 };
 
 export default function RootLayout({
@@ -26,7 +26,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="fr">
       <body
         className={`${playfair.variable} ${inter.variable} antialiased bg-white text-black`}
       >

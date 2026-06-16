@@ -28,8 +28,8 @@ export default function Home() {
           </h1>
           <div className="h-px bg-black w-16 mx-auto mb-6"></div>
           <p className="font-inter text-lg lg:text-xl text-gray-700 leading-relaxed">
-            Street & Travel Photography<br />
-            <span className="text-gray-600">Cinematic urban moments</span>
+            Photographie de rue et voyage<br />
+            <span className="text-gray-600">Moments urbains cinématographiques</span>
           </p>
         </div>
 
@@ -39,7 +39,7 @@ export default function Home() {
             href="/portfolio"
             className="font-inter text-sm uppercase tracking-widest text-black hover:text-gray-600 transition-colors duration-300"
           >
-            View Portfolio →
+            Voir mon portfolio →
           </a>
         </div>
       </section>

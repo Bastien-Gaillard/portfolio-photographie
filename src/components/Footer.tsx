@@ -11,9 +11,9 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
           {/* About */}
           <div>
-            <h3 className="font-playfair text-lg mb-4">About</h3>
+            <h3 className="font-playfair text-lg mb-4">À propos</h3>
             <p className="font-inter text-sm text-gray-600 leading-relaxed">
-              Street and travel photographer focused on cinematic urban moments and atmospheric light.
+              Photographe de rue et voyage focalisé sur les moments urbains cinématographiques et la lumière atmosphérique.
             </p>
           </div>
 
@@ -23,7 +23,7 @@ export default function Footer() {
             <ul className="space-y-2 font-inter text-sm">
               <li>
                 <Link href="/" className="text-gray-600 hover:text-black transition-colors">
-                  Home
+                  Accueil
                 </Link>
               </li>
               <li>
@@ -33,12 +33,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="/about" className="text-gray-600 hover:text-black transition-colors">
-                  About
-                </Link>
-              </li>
-              <li>
-                <Link href="/contact" className="text-gray-600 hover:text-black transition-colors">
-                  Contact
+                  À propos
                 </Link>
               </li>
             </ul>
@@ -46,7 +41,7 @@ export default function Footer() {
 
           {/* Social */}
           <div>
-            <h3 className="font-playfair text-lg mb-4">Social</h3>
+            <h3 className="font-playfair text-lg mb-4">Réseaux sociaux</h3>
             <div className="space-y-2 font-inter text-sm">
               <div>
                 <a
@@ -75,8 +70,8 @@ export default function Footer() {
         {/* Bottom Section */}
         <div className="border-t border-gray-200 pt-8">
           <div className="flex flex-col md:flex-row items-center justify-between text-xs font-inter text-gray-600">
-            <p>© {currentYear} Bastien Gaillard. All rights reserved.</p>
-            <p className="mt-4 md:mt-0">Photography portfolio</p>
+            <p>© {currentYear} Bastien Gaillard. Tous droits réservés.</p>
+            <p className="mt-4 md:mt-0">Portfolio photographique</p>
           </div>
         </div>
       </div>
