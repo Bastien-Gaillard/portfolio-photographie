@@ -2,8 +2,6 @@ import Link from 'next/link';
 import { readdirSync, statSync } from 'fs';
 import path from 'path';
 
-export const dynamic = 'force-dynamic';
-
 type SeriesItem = {
   id: string;
   title: string;

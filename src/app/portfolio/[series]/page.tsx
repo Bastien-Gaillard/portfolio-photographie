@@ -4,8 +4,6 @@ import ImageGrid from '@/components/ImageGrid';
 import { readdirSync } from 'fs';
 import path from 'path';
 
-export const dynamic = 'force-dynamic';
-
 type SeriesPageProps = {
   params: { series: string } | Promise<{ series: string }>;
 };
@@ -25,6 +23,19 @@ function getImagesForSeries(seriesId: string) {
 
   return files.map((file) => `/images/${seriesId}/${file}`);
 }
+
+function getSeriesIds() {
+  const imagesRoot = path.join(process.cwd(), 'public', 'images');
+  return readdirSync(imagesRoot, { withFileTypes: true })
+    .filter((entry) => entry.isDirectory())
+    .map((entry) => entry.name);
+}
+
+export function generateStaticParams() {
+  return getSeriesIds().map((series) => ({ series }));
+}
+
+export const dynamicParams = false;
 
 export default async function SeriesDetail({ params }: SeriesPageProps) {
   const resolvedParams = await params;
