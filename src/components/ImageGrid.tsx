@@ -36,17 +36,26 @@ export default function ImageGrid({ images, variant = 'grid', seriesTitle = 'ser
           <div key={src} className="group cursor-pointer overflow-hidden break-inside-avoid mb-8 lg:mb-12">
             <button
               type="button"
-              className="w-full text-left"
+              className="w-full text-left cursor-zoom-in"
               onClick={() => setActiveSrc(src)}
               aria-label="View image"
             >
-              <div className="w-full bg-gray-200 rounded-sm overflow-hidden hover:shadow-lg transition-shadow duration-300">
+              <div className="relative w-full bg-gray-200 rounded-sm overflow-hidden shadow-sm transition-all duration-500 group-hover:shadow-lg">
                 <img
                   src={src}
                   alt={`Photography - ${seriesTitle} series`}
-                  className="w-full h-auto"
+                  className="w-full h-auto transition-transform duration-500 group-hover:scale-[1.03]"
                   loading="lazy"
                 />
+                <div className="absolute inset-0 flex items-center justify-center bg-black/0 opacity-0 transition-all duration-500 group-hover:bg-black/18 group-hover:opacity-100">
+                  <div className="flex items-center gap-2 rounded-full border border-white/70 bg-black/25 px-4 py-2 text-white backdrop-blur-sm">
+                    <svg className="h-4 w-4" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                      <path d="M9.5 4.5a5 5 0 1 0 3.06 8.95l4.47 4.47 1.41-1.41-4.47-4.47A5 5 0 0 0 9.5 4.5Z" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" />
+                      <path d="M9.5 7.25v4.5M7.25 9.5h4.5" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" />
+                    </svg>
+                    <span className="text-xs uppercase tracking-[0.2em]">Cliquer pour ouvrir</span>
+                  </div>
+                </div>
               </div>
             </button>
           </div>

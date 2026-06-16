@@ -29,7 +29,6 @@ export default function Home() {
           <div className="h-px bg-black w-16 mx-auto mb-6"></div>
           <p className="font-inter text-lg lg:text-xl text-gray-700 leading-relaxed">
             Photographie de rue et voyage<br />
-            <span className="text-gray-600">Moments urbains cinématographiques</span>
           </p>
         </div>
 

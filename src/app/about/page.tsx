@@ -17,14 +17,15 @@ export default function About() {
           {/* Text Section */}
           <div className="font-inter text-lg leading-relaxed space-y-6 text-gray-800">
             <p>
-              Je photographie la nature et mes voyages, en me concentrant sur la lumière, l'atmosphère et les détails des lieux que j'explore.
+              Je m&apos;appelle Bastien GAILLARD.
             </p>
             <p>
-              Mon objectif est de partager des moments authentiques et les émotions des scènes que j'encounteres.
+              Passionné de photographie de nature et de voyage, je capture les paysages, les animaux et les instants qui croisent mon chemin.
             </p>
             <p>
-              Je capture la beauté tranquille de chaque scène telle que je l'expérience.
+              Mes photos reflètent simplement ce que j&apos;observe et ce qui m&apos;inspire lors de mes sorties.
             </p>
+           
           </div>
 
           {/* Divider */}
@@ -47,7 +48,7 @@ export default function About() {
           <div className="space-y-4">
             <h2 className="font-playfair text-2xl font-light">Détails techniques</h2>
             <p className="font-inter text-gray-700">
-              Sony Alpha 6700 // Various prime lenses
+              Sony Alpha 6700 // Différents objectifs selon les situations
             </p>
           </div>
         </div>
